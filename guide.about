@@ -1,0 +1,35 @@
+def todos los interactuables
+
+Interactable
+	-x
+	-y
+	-type
+	-event{}
+	-in?
+	-do_event
+	
+	-Collectible
+		
+	-Trigger
+		-xd
+		-yd
+
+Map
+	-ArrayOfInteractable
+	-ArrayOfString Layout
+	*Refresh
+	*
+Entity
+-hp
+-char
+-x
+-y
+-ArrayOfBaseStatus
+	Enemy
+		-Action
+		-Loot
+	Player
+		-Action
+		-xp
+		-mod
+		-ArrayOfInventory
